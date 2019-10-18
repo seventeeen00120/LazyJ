@@ -1,0 +1,50 @@
+.header {
+  padding: 120px;
+  text-align: center;
+  background: red;
+  color: white;
+  font-size: 30px;
+}
+
+
+.btn-position{
+    position: relative;
+    top:-100px;
+    left:32%;
+}
+.headerButton{
+  background-color:red;
+  color:white;
+  font-family:"Microsoft YaHei";
+  font-size:23px;
+}
+
+.headerButton:hover
+{
+  background-color:rgb(227,64,77);
+  font-weight: bold;
+  
+}
+
+.headerMenu{
+    display:none;
+    position: absolute;
+    top:50px;
+    left:-1px;
+}
+
+.itemMenu{
+    color:white;
+    text-align:left;
+}
+.itemMenu:hover{
+    color:white;
+    font-weight: bold;
+    background-color:rgb(227,64,77);
+}
+
+.headerButton:hover>div{
+    display:block;
+    background-color:rgb(227,64,77);
+    
+}
