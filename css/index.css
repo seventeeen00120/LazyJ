@@ -6,7 +6,6 @@
   font-size: 30px;
 }
 
-
 .btn-position{
     position: relative;
     top:-100px;
@@ -18,21 +17,22 @@
   font-family:"Microsoft YaHei";
   font-size:23px;
 }
-
-.headerButton:hover
-{
+.headerButton:hover{
   background-color:rgb(227,64,77);
   font-weight: bold;
   
 }
-
+.headerButton:hover>div{
+    display:block;
+    background-color:rgb(227,64,77);
+    
+}
 .headerMenu{
     display:none;
     position: absolute;
     top:50px;
     left:-1px;
 }
-
 .itemMenu{
     color:white;
     text-align:left;
@@ -43,8 +43,22 @@
     background-color:rgb(227,64,77);
 }
 
-.headerButton:hover>div{
-    display:block;
-    background-color:rgb(227,64,77);
-    
+.content1{
+    background:#ECECEC;
+    padding: 300px;
+    color:#555555;
+    position: relative;
+    top:-52px;
 }
+.title{
+    position:absolute;
+    top:20px;
+    right:830px;
+    text-align: center;
+}
+h1{ 
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block
+}
+
